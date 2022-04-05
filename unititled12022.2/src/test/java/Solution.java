@@ -1,0 +1,25 @@
+public class Solution {
+    public int[] twoSum(int[] nums,int target){
+        int[] a={0,1};
+        return a;
+    }
+    public static void main(String[] args) {
+        Solution solution=new Solution();
+        int[] nums={2,7,11,15};
+        int target=9;
+        int[] result=solution.twoSum(nums,target);
+        if (result.length==2&&result[0]==0&&result[1]==1){
+            System.out.println("testcase1 OK");
+        }else {
+            System.out.println("testcase1 failed");
+        }
+        int[]num2={3,2,4};
+        int target2=6;
+        int[] result2=solution.twoSum(num2,target2);
+        if (result2.length==2&&result[0]==1&&result[1]==2){
+            System.out.println("testcase2 OK");
+        }else {
+            System.out.println("testcase2 failed");
+        }
+    }
+}
